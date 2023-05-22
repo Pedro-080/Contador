@@ -15,14 +15,14 @@ plusButton.addEventListener('mousedown',()=>{
     intervalId = setInterval(()=>{
         count+=1;
         updateValue();
-    },100);
+    },50);
 });
 
 minusButton.addEventListener('mousedown',()=>{
     intervalId = setInterval(()=>{
         count-=1;
         updateValue();
-    },100);
+    },50);
 });
 
 resetButton.addEventListener('click',()=>{
